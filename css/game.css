@@ -1,0 +1,72 @@
+.flexBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-success{
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btn-warning{
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btn-danger{
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+.btn-dark{
+    width: 60%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (min-width: 768px){
+    .btn-success{
+        width: 40%;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .btn-warning{
+        width: 40%;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .btn-danger{
+        width: 40%;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .btn-dark{
+        width: 40%;
+        height: 40px;
+        font-size: 25px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+}
